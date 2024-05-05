@@ -3,6 +3,8 @@
 <head>
   <title>Dan Tran</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/29b710040a.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
 </head>
 <body>
   <div class="container">
@@ -15,7 +17,12 @@
           <p>Educator</p>
         </div>
       </div>
-      <img class="avatar" src="images/avatar.jpg" alt="Profile Picture">
+      <div class="header-right">
+        <img class="avatar" src="images/avatar.jpg" alt="Profile Picture">
+        <div class="share">
+          <i class="fa-solid fa-share-from-square"></i>
+        </div>
+      </div>
     </div>
     <div class="content">
       <h3>About Me</h3>
@@ -96,6 +103,19 @@
               <li><a href="https://autumnssuns.github.io/advance-blazor/">Chess-like Game (Blazor Web Assembly)</a></li>
         </ul>
       </p>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Share My Bio</h2>
+        <span class="close">
+          <i class="fa-solid fa-times"></i>
+        </span>
+      </div>
+      <div class="modal-body">
+        <img src="images/qrcode.png" alt="Profile Picture">
+      </div>
     </div>
   </div>
 </body>
